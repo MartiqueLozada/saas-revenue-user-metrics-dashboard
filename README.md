@@ -24,18 +24,18 @@ This project showcases how a centralized dashboard can highlight performance tre
 ## 📷 Dashboard Preview  
 
 **Executive Summary**  
-![Executive Summary](executive_summary.png)  
+![Executive Summary](visuals/executive_summary.png)  
 
 **Revenue Overview**  
-![Revenue Overview](revenue_overview.png)  
+![Revenue Overview](visuals/revenue_overview.png)  
 
 **User Metrics**  
-![User Metrics](user_metrics.png)  
+![User Metrics](visuals/user_metrics.png)  
 
 **Retention & Churn Analysis**  
-![Retention & Churn Analysis](retention_churn_analysis.png)  
+![Retention & Churn Analysis](visuals/retention_churn_analysis.png)  
 
-📑 [Download Full Dashboard (PDF)](saas_revenue_user_metrics_dashboard.pdf)  
+📑 [Download Full Dashboard (PDF)](deliverables/saas_revenue_user_metrics_dashboard.pdf)  
 
 ---
 
@@ -56,21 +56,18 @@ This project showcases how a centralized dashboard can highlight performance tre
 ---
 
 ## 📂 Repository Contents  
-- `users.csv` – User signup data with acquisition source  
-- `subscriptions.csv` – Subscription activity by plan and date range  
-- `payments.csv` – Revenue transaction data  
-- `plans.csv` – SaaS plan catalog and pricing  
-- `saas_revenue_user_metrics.sql` – SQL queries used for data preparation  
-- `executive_summary.png`, `revenue_overview.png`, `user_metrics.png`, `retention_churn_analysis.png` – Dashboard screenshots  
-- `saas_revenue_user_metrics_dashboard.pdf` – Full report export  
-- `README.md` – Project documentation  
+- **data/** → CSVs simulating SaaS users, subscriptions, payments, and plans  
+- **sql/** → SQL queries used for KPI calculation and data preparation  
+- **visuals/** → PNG screenshots of dashboard views  
+- **deliverables/** → PDF export of full dashboard  
+- **README.md** → Project documentation  
 
 ---
 
 ## 📖 How to Use  
 1. Open the CSV files in your preferred BI tool (Power BI, Tableau, Looker Studio, Excel).  
-2. Use the provided SQL (`saas_revenue_user_metrics.sql`) to recreate KPIs like revenue, churn, and retention.  
-3. View screenshots or the full PDF for insights without requiring Power BI service access.  
+2. Use the provided SQL (`sql/saas_revenue_user_metrics.sql`) to recreate KPIs like revenue, churn, and retention.  
+3. View screenshots or the PDF for insights without requiring Power BI service access.  
 
 ---
 
